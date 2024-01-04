@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Flashcards React App
+# Overview
+The Flashcards React App is a web application that allows users to create, edit, and manage flashcards. This README provides clear instructions for setting up and running the application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Installation
+Make sure that you have Node.js installed on your machine before you follow the steps below.
 
-## Available Scripts
+Clone this repository: git clone https://github.com/EhtiramMaharramli/Web_Mobile1_Assignment3.git or download source code as a ZIP file
+Load project
+Install dependencies by typing npm install
+Start the development server: npm start
+Open your browser and visit http://localhost:3000 to view the application.
+Type json-server --watch db/football.json --port 3000 to start JSON server for flashcards and messages.
 
-In the project directory, you can run:
+# Usage
+Creating a New Flashcard:
+Click the "Create" button.
+Fill in the question, answer, and status in the form.
+Click "Add Flashcard" to save.
+# Editing a Flashcard:
 
-### `npm start`
+Click the "Edit" button on the desired flashcard.
+Modify the question, answer, or status in the popup.
+Click "Update Flashcard" to save changes or "Cancel" to discard.
+# Deleting a Flashcard:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Click the "Delete" button on the desired flashcard.
+Confirm the deletion.
+# Searching and Filtering:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Use the search bar to filter flashcards based on text.
+Choose a status from the dropdown to filter by status.
+# Sorting:
 
-### `npm test`
+Use the "Sort By" dropdown to select sorting criteria.
+# Flipping a Flashcard:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Click on a flashcard to flip it and view the back.
+# Adding Flashcards from the Server:
 
-### `npm run build`
+The application fetches flashcards from the server on startup.
+Ensure your server is running and accessible.
+# Server Configuration
+This application assumes a RESTful API for managing flashcards. The default API endpoint is http://localhost:3000/cards. If your API server is running on a different port or domain, update the API endpoint accordingly in the code.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
